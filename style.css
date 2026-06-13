@@ -1,1 +1,24 @@
 
+html {
+   box-sizing: border-box;
+   max-width: 70ch;
+   margin: auto;
+   font-size: 1.25em;
+   color: #333;
+   line-height: 1.4;
+}
+*, *::before, *::after {
+   box-sizing: inherit;
+}
+container {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 20px;
+}
+card {
+   flex: 1 1 300px;
+   padding: 15px;
+   background: white;
+   border-radius: 8px;
+   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
