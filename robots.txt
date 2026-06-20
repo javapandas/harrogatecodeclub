@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://javapandas.github.io/harrogatecodeclub/sitemap.xml
